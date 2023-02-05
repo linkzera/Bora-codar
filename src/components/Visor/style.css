@@ -1,0 +1,34 @@
+.visor, .operation, .result, .result span {
+  background-color: transparent;
+}
+
+.visor{
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+  justify-content: center;
+  flex-direction: column;
+  margin: 1.375rem 1.375rem 1.675rem 1.375rem;
+}
+
+.result{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.operation{
+  color: #6B6B6B;
+  font-size: 1.25rem;
+}
+
+.result span:first-child{
+  color: #6B6B6B;
+  font-size: 1.675rem;
+}
+
+.result__number{
+  font-size:2.25rem;
+  color: #EBEBEB;
+}
